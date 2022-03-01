@@ -7,6 +7,7 @@ The app takes in data from a csv provided by City Bike in New York City.
 
 To create the database:
 `python3 manage.py makemigrations webservice`
+
 `python3 manage.py migrate webservice`
 
 To extract the data from the csv, run the following command:
