@@ -24,5 +24,6 @@ An HTTP API is provided which provides data for list of trips, or a single trip,
 ## Requirements
 
 Django 2.2.24
+
 djangorestframework 3.13.1
  
