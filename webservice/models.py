@@ -17,6 +17,4 @@ class Route(models.Model):
 class Trip(models.Model):
 	started_at = models.CharField(max_length=20, default="")
 	ended_at = models.CharField(max_length=20, default="")
-	#conditions = models.CharField(max_length=20, default="")
-	#temperature = models.CharField(max_length=20, default="")
 	route = models.ForeignKey(Route, on_delete=models.CASCADE)
