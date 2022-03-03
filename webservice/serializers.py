@@ -1,7 +1,6 @@
 from rest_framework import serializers
 import requests
 import json
-from math import cos, asin, sqrt
 
 from webservice.models import Route, Trip
 
