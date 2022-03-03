@@ -3,6 +3,7 @@ import os
 import requests
 import json
 from math import cos, asin, sqrt
+import dateutil.parser as parser
 
 from django.core.management import BaseCommand
 from ...models import Route, Trip
