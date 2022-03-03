@@ -103,8 +103,8 @@ class Command(BaseCommand):
 				trip = Trip(
 					started_at=row[2],
 					ended_at=row[3],
-					#conditions=get_weather(route.start_lat,route.start_lng,route.started_at)[0],
-					#temperature=get_weather(route.start_lat,route.start_lng,route.started_at)[1],
+					#conditions=get_weather(route.start_lat,route.start_lng,row[2])[0],
+					#temperature=get_weather(route.start_lat,route.start_lng,row[2])[1],
 					route=route)
 				trips.append(trip)
 				if len(trips) > 5000:
