@@ -3,7 +3,7 @@
 This a Django application that serves a web service API for bike trip information in
 New York City. 
 
-The app takes in data from a csv provided by City Bike in New York City.
+The app takes in data from a csv provided by CitiBike in New York City.
 
 To create the database:
 
