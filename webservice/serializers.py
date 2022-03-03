@@ -34,7 +34,5 @@ class TripSerializer(serializers.ModelSerializer):
             'start_lng',
             'end_lat',
             'end_lng',
-            #'conditions',
-            #'temperature'
             'route')
        
