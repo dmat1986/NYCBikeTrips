@@ -5,6 +5,10 @@ New York City.
 
 The app takes in data from a csv provided by CitiBike in New York City.
 
+Download the project and make your way into the folder:
+
+`cd NYCBikeTrips`
+
 To create the database:
 
 `python3 manage.py makemigrations webservice`
